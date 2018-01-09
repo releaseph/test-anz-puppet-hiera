@@ -3,4 +3,4 @@ classes:
         - profile::base::tdrepo
 
 tng::admin::url: 'admin.dev.test.cambridge.org'
-tng::go::url: 'tng.dev.test.cambridge.org'
+tng::go::url: 'anz-go-dev.aws.cambridge.edu.au/go'
