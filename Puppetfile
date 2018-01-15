@@ -10,7 +10,6 @@ mod 'role',
  
 mod 'tng',
   :git => 'https://github.com/releaseph/test-anz.git',
-  :branch => 'dev',
   :install_path => '/etc/puppetlabs/code/modules'
 
 mod 'ntp',
