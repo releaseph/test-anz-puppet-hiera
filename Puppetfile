@@ -8,6 +8,10 @@ mod 'role',
   :git => 'git@github.com:releaseph/test-anz-puppet-roles.git',
   :branch => 'dev'
 
+mod 'tng_conf',
+  :git => 'https://github.com/releaseph/test-anz.git',
+  :branch => 'dev'
+
 mod 'ntp',
   :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git',
   :tag => '6.0.0'
