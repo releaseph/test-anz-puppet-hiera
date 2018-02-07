@@ -6,7 +6,7 @@ node 'anz-puppetmaster'{
 }
 node 'ip-10-111-33-11' {
         include '::ntp'
-		include ::role::tng
+		include ::role::educ::tng
 	}
 
 hiera_include('classes',[])
