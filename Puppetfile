@@ -8,7 +8,7 @@ mod 'role',
   :git => 'git@github.com:releaseph/test-anz-puppet-roles.git',
   :branch => 'dev'
 
-mod 'tng_conf',
+mod 'tng_conf/files',
   :git => 'https://github.com/releaseph/test-anz.git',
   :branch => 'dev'
 
