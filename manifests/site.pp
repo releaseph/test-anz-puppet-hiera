@@ -10,7 +10,7 @@ node 'ip-10-111-33-11' {
 	}
 #node '<LIVE HOSTNAME>' {
 #       include '::ntp'
-#		include ::role::educ::tng
+#		include ::role::educ::tng_live
 #	}
 	
 hiera_include('classes',[])
