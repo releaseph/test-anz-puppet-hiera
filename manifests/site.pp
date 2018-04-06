@@ -12,7 +12,7 @@ node 'ip-10-111-33-11' {
 #Deploy on Staging Server of TNG
 node 'ip-10-111-33-7' {
         include '::ntp'
-		#include ::role::educ::tng
+		include ::role::educ::tng
 	}
 #node '<LIVE HOSTNAME>' {
 #       include '::ntp'
