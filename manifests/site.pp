@@ -4,9 +4,15 @@ node 'anz-puppetmaster'{
 		include '::ntp'
 		include ::profile::conf 
 }
+#Deploy on Test Cloned Server of TNG
 node 'ip-10-111-33-11' {
         include '::ntp'
 		include ::role::educ::tng
+	}
+#Deploy on Staging Server of TNG
+node 'ip-10-111-33-7' {
+        include '::ntp'
+		#include ::role::educ::tng
 	}
 #node '<LIVE HOSTNAME>' {
 #       include '::ntp'
